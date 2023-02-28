@@ -1,6 +1,6 @@
-# MAS.S62 Recreating the Past by Zach Lieberman
+# MAS.S62 Recreating the Past
 
-This repository contains all the OpenFrameworks applications to recreate a piece for each different artist seen in class.
+This repository contains all the OpenFrameworks and p5js applications to recreate pieces for each different artist seen in class.
 
 ## Vera Molnár
 
