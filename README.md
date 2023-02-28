@@ -13,7 +13,6 @@ This repository contains all the OpenFrameworks applications to recreate a piece
 [John Whitney](https://en.wikipedia.org/wiki/John_Whitney_(animator)) was an American animator, composer and inventor, widely considered to be one of the fathers of computer animation.
 
 ![John Whitney](recreations/john_whitney/side_by_side.mov)
-<video src="recreations/john_whitney/side_by_side.mov" controls="controls" style="max-width: 730px;"></video>
 
 ## Muriel Cooper
 
