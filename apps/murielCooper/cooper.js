@@ -2,13 +2,17 @@ function setup() {
   createCanvas(2480/4, 3508/4);
   startTime = millis();
   textToDraw = "BAUHAUS";
-  animationTime = 500; // 1/2 seconds
+  animationTime = 100; // milliseconds
   animation = true;
+  totalTime = animationTime*textToDraw.length*3 + 200; // milliseconds
+  yAnimationRed = 10;
+  yAnimationYellow = 5;
 }
 
 function draw() {
+  clear();
   background(243,236,220,255);
-  let alpha = 0.03;
+  let alpha = 0.8;
   angleMode(DEGREES);
   let elapsedTime = millis() - startTime;
 
@@ -28,7 +32,7 @@ function draw() {
     text(chars, 0, 0);
   }
   else {
-    text("BAUHAUS", 0, 0);
+    text(textToDraw, 0, 0);
   }
 
   // Red
@@ -38,10 +42,16 @@ function draw() {
     let chars = textToDraw.substring(0,
                                      Math.max(0,
                                               n_chars-textToDraw.length));
-    text(chars, 0, 0);
+    let yPos = 150;
+    if (elapsedTime > totalTime){
+      text(chars,0,Math.max(0,yPos-(elapsedTime-totalTime)/yAnimationRed));
+    }
+    else {
+      text(chars, 0, yPos);
+    }
   }
   else {
-    text("BAUHAUS", 0, 0);
+    text(textToDraw, 0, 0);
   }
 
   // Yellow
@@ -51,10 +61,16 @@ function draw() {
     let chars = textToDraw.substring(0,
                                      Math.max(0,
                                               n_chars-2*textToDraw.length));
-    text(chars, 0, 0);
+    let yPos = 300;
+    if (elapsedTime > totalTime){
+      text(chars,0,Math.max(0,yPos-(elapsedTime-totalTime)/yAnimationYellow));
+    }
+    else {
+      text(chars, 0, yPos);
+    }
   }
   else {
-    text("BAUHAUS", 0, 0);
+    text(textToDraw, 0, 0);
   }
 
   blendMode(DARKEST);
