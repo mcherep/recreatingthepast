@@ -19,3 +19,15 @@ This repository contains all the OpenFrameworks and p5js applications to recreat
 [Muriel Cooper](https://en.wikipedia.org/wiki/Muriel_Cooper) was a pioneering book designer, digital designer, researcher, and educator, and a co-founder of the MIT Media Lab.
 
 ![Muriel Cooper](recreations/muriel_cooper/side_by_side.png)
+
+## Bridget Riley
+
+[Bridget Riley](https://en.wikipedia.org/wiki/Bridget_Riley) is an English painter.
+
+![Bridget Riley](recreations/bridget_riley/side_by_side.png)
+
+## Odili Odita
+
+[Odili Odita](https://en.wikipedia.org/wiki/Odili_Donald_Odita)
+
+![Odili Odita](recreations/odili_odita/side_by_side.png)
