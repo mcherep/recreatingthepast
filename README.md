@@ -28,6 +28,6 @@ This repository contains all the OpenFrameworks and p5js applications to recreat
 
 ## Odili Odita
 
-[Odili Odita](https://en.wikipedia.org/wiki/Odili_Donald_Odita)
+[Odili Odita](https://en.wikipedia.org/wiki/Odili_Donald_Odita) is a Nigerian American abstract painter. His work explores color both in the figurative historical context and in the sociopolitical sense.
 
 ![Odili Odita](recreations/odili_odita/side_by_side.png)
